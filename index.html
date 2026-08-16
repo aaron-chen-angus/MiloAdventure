@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="Milo Adventure — A science-informed interactive activity exploring adaptability, emotional regulation and flexible thinking in children aged 6–9.">
+    <title>Milo Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div id="app" class="app-container" role="main" aria-label="Milo Adventure Application">
+        <!-- App content rendered by JavaScript -->
+        <noscript>
+            <div style="padding: 2rem; text-align: center;">
+                <h1>Milo Adventure</h1>
+                <p>This application requires JavaScript to run. Please enable JavaScript in your browser settings.</p>
+            </div>
+        </noscript>
+    </div>
+
+    <!-- Scripts loaded in dependency order -->
+    <script src="config.js"></script>
+    <script src="scenarios.js"></script>
+    <script src="scoring.js"></script>
+    <script src="dccs.js"></script>
+    <script src="storage.js"></script>
+    <script src="google-sheets.js"></script>
+    <script src="results.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
